@@ -1,0 +1,453 @@
+[33mcommit 5ffb97f3c1c42390b34326a6538fa7e3ac71be03[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Thu Mar 6 00:25:19 2014 +0100
+
+    Gets rid of a complicated rebase consequence within the NFluent.35.Tests.csproj.
+
+[33mcommit ee7f43ad959c64da4ddd021e9e5c711ada244ba6[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Tue Feb 18 22:08:06 2014 +0100
+
+    Fix for null ref exception for Contains on null
+
+[33mcommit 8f9b8122ba495d3820b3e6bb0e3d702aa0181859[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Mar 5 23:40:34 2014 +0100
+
+    Removes obsolete // TODO
+
+[33mcommit d15d7c5c120149d85d93a8eff32a5e76fa9ce737[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Mar 5 23:40:03 2014 +0100
+
+    Moves the UserReportedIssuesTests to the proper project (i.e. 3.5, and not 4.0).
+
+[33mcommit 1355f6909c0826bb6db6dce3f050f4208f5478a3[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Sun Mar 2 22:04:06 2014 +0100
+
+    Added support for mono naming scheme
+
+[33mcommit dfa8468337543409ff54f9da09efea25b3d924c2[m
+Merge: af51ccb 0425068
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Fri Feb 28 21:54:05 2014 +0100
+
+    Merge remote-tracking branch 'origin/master'
+    
+    Conflicts:
+    	NFluent.40.Tests/UserReportedIssuesTests.cs
+
+[33mcommit af51ccbefc64484150ab3c1bfbace9fd0c95acad[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Fri Feb 28 21:24:34 2014 +0100
+
+    Fix for a user reported null ref exception with HasFieldsWithSameValues
+
+[33mcommit 6f6286bf0c60d1a9402e73bb5a3576aee2ce2e65[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Tue Feb 18 22:08:06 2014 +0100
+
+    Fix for null ref exception for Contains on null
+
+[33mcommit fb448b246405d103ccb7240b08af3b119ecba45c[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Mon Feb 17 13:32:35 2014 +0100
+
+    Restored true 100% coverage
+    
+    Fixed issues with doc generation and new interfaces
+    Minor FxCop fixes
+
+[33mcommit 40bdc151a6956777a4f8d68e725ec60f586a88d1[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Thu Feb 6 22:29:30 2014 +0100
+
+    Secured performance test and restored 100% coverage
+
+[33mcommit 051002c83253ef8e260d48da8236cab6b2918256[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Thu Feb 6 22:05:04 2014 +0100
+
+    Secured performance test and restored 100% coverage
+
+[33mcommit fd5e741ee8c2982a7f53f06ec0bfd9891cf1dee3[m
+Author: Cyrille DUPUYDAUBY <dupdob@gmail.com>
+Date:   Mon Feb 24 21:34:38 2014 +0100
+
+    Add entries to GitIgnore for Xamarin
+
+[33mcommit 0425068a25e989dfbdcdf62d0bbcf18ae56ef5ad[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Tue Feb 18 22:08:06 2014 +0100
+
+    Fix for null ref exception for Contains on null
+
+[33mcommit 698e6a2e945b8f104f9afe04602e4557bcf100e0[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Mon Feb 17 13:32:35 2014 +0100
+
+    Restored true 100% coverage
+    
+    Fixed issues with doc generation and new interfaces
+    Minor FxCop fixes
+
+[33mcommit 5d6317ea763398cfe6317ea830ed098ed43db7fd[m
+Merge: 3614edb 8828e72
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Fri Feb 14 07:22:19 2014 +0100
+
+    Merge remote-tracking branch 'upstream/master'
+
+[33mcommit 8828e728569f238482d303332735e12aac5afbcf[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Fri Feb 14 02:07:07 2014 +0100
+
+    Sets the new version of NFluent.
+    
+    Resets the release notes content.
+
+[33mcommit 42aa6ddd9b518c943d9e45eecb1c9bc775d64c59[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Fri Feb 14 00:56:41 2014 +0100
+
+    Adds new tags for the nuget package (nunit, xunit and so forth...)
+
+[33mcommit 660894e5bbc021dac03d626a0bd76fa6a78f8ec4[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Fri Feb 14 00:43:24 2014 +0100
+
+    Adds IsNull() and IsNotNull() for all nullable types.
+
+[33mcommit 737d4077f1600dfade9c61b91dd0a0233cbab365[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Thu Feb 13 22:52:31 2014 +0100
+
+    Merges with Cyrille changes.
+
+[33mcommit 455924e2b2f901ea6d71e5d7fe29c1382cdd0fcb[m
+Merge: 051b75e 73ae2de
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Thu Feb 13 22:46:56 2014 +0100
+
+    Merge branch 'master' of https://github.com/dupdob/NFluent into CyrilleIntegration
+
+[33mcommit 051b75e9ac1dc48233200e0e06df826842e39a8b[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Thu Feb 13 22:34:27 2014 +0100
+
+    Fixes the LongStringErrorMessageIsProperlyTruncated() test.
+
+[33mcommit 3614edbb3f6c5a26c0ce9e8823b972553a0aaa55[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Thu Feb 6 22:29:30 2014 +0100
+
+    Secured performance test and restored 100% coverage
+
+[33mcommit 96c44d3be4372fd09e9e60c47ff08a31cfc2b8a0[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Thu Feb 6 22:05:04 2014 +0100
+
+    Secured performance test and restored 100% coverage
+
+[33mcommit b35deb7721eaf1dabab367e8592223cb32146de2[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Thu Feb 13 08:37:39 2014 +0100
+
+    Restores the initial test and xml files since I have properly set the core.autocrlf property to false (was true before). Should fix the SF issue.
+
+[33mcommit 84d13bb1570f34ba38d008a371dcb919adf5fd46[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Thu Feb 13 08:22:48 2014 +0100
+
+    Removes a silly IO instruction from the LongStringErrorMessageIsProperlyTruncated() test.
+
+[33mcommit 87398718368f1d28757c29801b2c55dd6491e00e[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Thu Feb 13 08:15:55 2014 +0100
+
+    Checks that the streamReader.ReadToEnd() api return the same result as the File.ReadAllText()  (to understand why our SF is failing ;-(
+
+[33mcommit 5ccac7eabcd375a414343e039e067ed67cd68d0e[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Thu Feb 13 08:14:08 2014 +0100
+
+    Updates the backlog with a new check to be implemented.
+
+[33mcommit a62f1920cadcdb918de1e4c34c2ea63c3865b2c8[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 12 21:33:05 2014 +0100
+
+    Tries to understand why the SF behaves differently from my desktop ;-( with the test LongStringErrorMessageIsProperlyTruncated()
+
+[33mcommit 67863165d2f39f3372285156852c6ee401e46020[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 12 19:27:10 2014 +0100
+
+    Replaces File.ReadAllText() with StreamReader.ReadToEnd() in order to fix the LongStringErrorMessageIsProperlyTruncated() on the SF.
+
+[33mcommit 8760112c95100dd41badc3140406a0089624a54d[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 12 18:50:02 2014 +0100
+
+    Tries to fix the failing test on the Software Factory by explicitely specifying the UTF8 encoding within the File.ReadAllText statement of the  LongStringErrorMessageIsProperlyTruncated() test.
+
+[33mcommit 6eb7dee31104c17a363dcdb40066601d2dbb2c78[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 12 18:48:46 2014 +0100
+
+    Refactors few things within the StringCheckExtensions class.
+
+[33mcommit fe753a1a81fe8c2a50c1692f2f73ff74639dd0a5[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 12 18:22:20 2014 +0100
+
+    Saves the Xml files for tests as UTF-8 without BOM.
+
+[33mcommit 17f8e5756871cb47a5cd97360be8a0193f1cc7f9[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 12 09:17:14 2014 +0100
+
+    Updates the local backlog.
+
+[33mcommit 91a387b6ac5656071b2d875b94d3f1261fb724be[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 12 09:15:11 2014 +0100
+
+    Replaces all forbidden  char such as < and > within the release note source.
+
+[33mcommit 70d60f0a44ce02be4d20a537ab836c5f1811f3d3[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 12 09:14:27 2014 +0100
+
+    Renames some string related tests and starts to refactor the AssessEquals monster method (too many lines ;-)
+
+[33mcommit 3a8e67f00f1a03efcac97d845420d3ca3e5db84a[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 12 08:50:30 2014 +0100
+
+    Adds the test IsEqualToHelpsToDistinguishLineFeedAndCarriageReturnLineFeedOnlyForTheFirstOnes() for string checks.
+
+[33mcommit 723eba72666cf1de1957d53587cc5ca69267d37a[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 12 08:45:09 2014 +0100
+
+    Fixes stylecop issue (missing doc on return element).
+
+[33mcommit 25a1235a88f71bd94b743daa1f2db4eb14ae728b[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 12 08:40:43 2014 +0100
+
+    Fixes the LongStringErrorMessageIsProperlyTruncated test by introducing "\r\n" only inside the XML extracts.
+
+[33mcommit cf3473f544e554884b2dbeb472c0a544a75ec531[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 12 08:34:57 2014 +0100
+
+    Commits so that Cyrille can check why this test doesn't work.
+
+[33mcommit 5f72ee039f0f5fad3be39be22888999e4927bb20[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 12 08:15:06 2014 +0100
+
+    Tries to fix the LongStringErrorMessageIsProperlyTruncated but it doesn't work (NUnit / Visual CRLF/LF issue)
+
+[33mcommit 73ae2dedbf7c6406768b990cc22b19c26a50c226[m
+Merge: 4f0df32 239fb52
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Tue Feb 11 07:39:12 2014 +0100
+
+    Merge remote-tracking branch 'upstream/master'
+    
+    Conflicts:
+    	NFluent.35.Tests/LambdaDurationTests.cs
+
+[33mcommit 06e77705cdc2cbbf3f4ec740a0dc32c246c40bbf[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Tue Feb 11 07:27:12 2014 +0100
+
+    Updates the release note.
+
+[33mcommit a280c04814042c6bf68c3d0820d50ec0612c2aab[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Tue Feb 11 07:25:53 2014 +0100
+
+    Improves error messages when difference is <<tab>> or whitespace, or <<CRLF>> and <<LF>>.
+
+[33mcommit 0456ba791c2814d6aa56c12c107104734cf01260[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Tue Feb 11 07:24:58 2014 +0100
+
+    Replaces <truncated> with <<truncated>> to be aligned with the <<tab>> syntax.
+
+[33mcommit 1c0ba88beedc18828fcfc3fd0effe60882dcd517[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Tue Feb 11 07:09:26 2014 +0100
+
+    Sets the 1.1 value within the website homepage.
+
+[33mcommit 394f6ed6b03577c68c47ffe817bfa54710e28c99[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Mon Feb 10 08:27:28 2014 +0100
+
+    Improves the release note.
+
+[33mcommit 87c46fa029ee168924aa5f773b6ffe1102d0df70[m
+Merge: 239fb52 4f0df32
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Mon Feb 10 08:21:43 2014 +0100
+
+    Now, indicates tab characters within string with <<tab>> on string comparisons.
+    
+    Merge https://github.com/dupdob/NFluent into CyrillePatch
+    
+    Conflicts:
+    	NFluent.35.Tests/LambdaDurationTests.cs
+
+[33mcommit 239fb52fbef061af27a7c9bec31c451f1403a53d[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Fri Feb 7 08:09:38 2014 +0100
+
+    Updates the release note to indicate that NFluent is now signed.
+
+[33mcommit b338dc21454a49e3fd80f03b0a126c2f5567fd56[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Fri Feb 7 08:03:48 2014 +0100
+
+    Changes some timeout to make the LambdaDurationTests less fragile when executed on the utter mutualized Software Factory.
+
+[33mcommit d30c65f1b4dacddb8b8e468f41c18de120716493[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Fri Feb 7 08:02:24 2014 +0100
+
+    Removes useless using.
+
+[33mcommit 4f0df32380b52742764b2343e72cad13badebaed[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Thu Feb 6 22:29:30 2014 +0100
+
+    Secured performance test and restored 100% coverage
+
+[33mcommit 6fab6b76358c47c2a6d2b2079d76c8f6ebebb927[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Thu Feb 6 22:05:04 2014 +0100
+
+    Secured performance test and restored 100% coverage
+
+[33mcommit 6b2ca179cc3d1f0b1d6563c97b9f2f4140db42fb[m
+Merge: 5103ca3 71cc55b
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Thu Feb 6 21:43:41 2014 +0100
+
+    Merge remote-tracking branch 'upstream/master'
+
+[33mcommit 71cc55be68c6aac018dbf35f22fa0e4ae71a23fa[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Thu Feb 6 08:30:15 2014 +0100
+
+    Splits the LambdaTests in two files, with one dedicated to duration or CPU tests.
+
+[33mcommit fc2976c0bebdea996415c6d64b7e92dda1281245[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Thu Feb 6 01:48:20 2014 +0100
+
+    Tries to find values for LambdaRelatedTests that won't last unit tests forever and that will succeed on the utter mutualized Software Factory.
+
+[33mcommit 885ecf376b377bda6c336acf071423c1cf9624d3[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Thu Feb 6 01:36:04 2014 +0100
+
+    Replaces some Check.That(lambda) by the new Check.ThatCode(lambda).
+
+[33mcommit eeaa51e5b3068c095a620c525f0836126efd6587[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Thu Feb 6 01:20:48 2014 +0100
+
+    Signs NFluent and friends assemblies (excepted NFluent.Web which should be refactored before that).
+
+[33mcommit f007b2be17962f01df591ae92f8b0252bc26cca8[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Thu Feb 6 01:19:42 2014 +0100
+
+    Fixes and shorten the long running tests with lambda; changing the scale (from Milliseconds to Microseconds).
+
+[33mcommit 29b25db395a2080e89c3f87a2b0428a7d1d1899b[m
+Merge: cd9b39b 23e693d
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 5 23:30:26 2014 +0100
+
+    Merge branch 'NewLambdas' of https://github.com/dupdob/NFluent into DevThomas
+    
+    Conflicts:
+    	ReleaseNoteContentToBeInsertedWithinNuspecFile.txt
+
+[33mcommit 5103ca3a244361468d556a10fdc1deb3ef3c6d83[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Wed Feb 5 23:09:37 2014 +0100
+
+    Added specific logic for long string
+
+[33mcommit 42f06e97ae0dc7951844df2770f07048eaf8b7cd[m
+Merge: 066cd20 cd9b39b
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Wed Feb 5 22:32:58 2014 +0100
+
+    Merge remote-tracking branch 'upstream/master'
+    
+    Conflicts:
+    	NFluent.35/Extensibility/FluentMessage.cs
+
+[33mcommit 23e693dd68738fa0ab9ed41bb253d59e0c52da57[m
+Author: Cyrille Dupuydauby <dupdob@gmail.com>
+Date:   Wed Feb 5 08:54:16 2014 +0100
+
+    Fix for failing test on factory
+
+[33mcommit cd9b39bc31af7a2106210f56fa159cf8d57e6505[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 5 07:24:45 2014 +0100
+
+    Fixes the build: XML Escape the < and > characters within rhe release note text, since it is reused afterward within the nuspec XML <description/> content.
+
+[33mcommit 1409a67dbc1377f04ef0939733150feb32f10f22[m
+Merge: f889600 9491d64
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 5 00:32:24 2014 +0100
+
+    Merge branch 'master' of https://github.com/tpierrain/NFluent
+
+[33mcommit f889600e4c1f1a5614e870386e37574b96368199[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 5 00:31:30 2014 +0100
+
+    Removes a blank line within the release note.
+
+[33mcommit c6aa8504af089890ad03d18972e578dc2a1b783f[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 5 00:29:44 2014 +0100
+
+    Sets the proper version number (1.1 instead of 2.0) since there is no need for breaking changes (thanks to the obsolete attribute).
+
+[33mcommit 255d5912bd590134fa91ac0a70ebf115a1c600fe[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 5 00:26:57 2014 +0100
+
+    Ralph BRAGG "represent": replaces Vador by Vader within the tests.
+
+[33mcommit d3deaa9386b2f877afcd76dd5b9a4e0f5e15e974[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 5 00:24:58 2014 +0100
+
+    Updates the release note to point out the obsolete methods/checks.
+
+[33mcommit 7c994603b3d9dc09fcc385852e5d220b5df0d5a2[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 5 00:24:13 2014 +0100
+
+    Avoid breaking changes by restoring the HasFieldsEqualToThose and HasFieldsNotEqualToThose checks, but marking them as obsolete.
+
+[33mcommit bd3c2a5c228623875f643e94d50f4a314bc6070e[m
+Author: Thomas PIERRAIN <thomas@pierrain.net>
+Date:   Wed Feb 5 00:22:31 2014 +0100
+
+    Updates the HowToAddANewAssertion.md file to be in line with Cyrille's refactoring of the ExtensibilityHelper type.
